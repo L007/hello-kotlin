@@ -15,4 +15,17 @@ fun main(args: Array<String>) {
     }
     pow(3,5)
 
+
+    val listMahasiswa : MutableList<String> = mutableListOf()
+    listMahasiswa.add("eldi")
+    listMahasiswa.add("antoeldi")
+    listMahasiswa.add("hehe")
+
+    val filter = {listMahasiswa.filter { it.length==4 }}
+    // it sama argumen yang kita pass ke lambda func jadi tidak perlu misal s -> s.length
+
+    println(filter( ))
+
+
+
 }
